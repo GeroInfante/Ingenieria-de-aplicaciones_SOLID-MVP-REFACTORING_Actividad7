@@ -15,31 +15,27 @@ public class PresenterLogin : IPresenterLogin
 
     public void Login(string usernameToVerify, string passwordToVerify)
     {
-        AuthResult loginAnswer = loginModel.authenticateLogin(usernameToVerify, passwordToVerify); // Me retorna un LogState
-        //LogState.logUser()
-        if (loginAnswer == AuthResult.UserNotFound)
-        {
-            loginUI.showUserNotFound();
-        }
-        else
-        {
-            if (loginAnswer == AuthResult.IncorrectPassword)
-            {
-                loginUI.showIncorrectPassword();
-            }
-            else
-            {
-                TypeOfUser userType = loginModel.getTypeOfUser(usernameToVerify);
-                if (userType == TypeOfUser.Admin)
-                {
-                    loginUI.ShowAdmin();
-                }
-                else
-                {
-                    loginUI.showUser();
-                }
-            }
-        }
+        ILoginState loginState = loginModel.authenticateLogin(usernameToVerify, passwordToVerify); // Me retorna un LogState
+        loginState.SetLoginPresenter(this);
+        loginState.LogUser();
+    }
+    public void TellToUILoginToLogAnAgent()
+    {
+        loginUI.showUser();
+    }
+
+    public void TellToUILoginToLogAnAdmin()
+    {
+        loginUI.ShowAdmin();
+    }
+
+    public void TellToUILoginToShowUserNotFound()
+    {
+        loginUI.showUserNotFound();
+    }
+    public void TellToUILoginToShowIncorrectPassword()
+    {
+        loginUI.showIncorrectPassword();
     }
 
 }

@@ -9,33 +9,27 @@ public class ModelLogin : IModelLogin
         localFileService = new LocalFilesService();
         typeOfUserLoging = new TypeOfUserLogin();
     }
-    public AuthResult authenticateLogin(string username, string password)
+    public ILoginState authenticateLogin(string username, string password)
     {
-        AuthResult answerOfAuthentication;
+        ILoginState loginState;
+
         if (usernameNotFound(username))
         {
-            answerOfAuthentication = AuthResult.UserNotFound;
+            loginState = new UsernameNotFoundLoginState();
         }
         else
         {
             if (passwordIsInvalid(username, password))
             {
-                answerOfAuthentication = AuthResult.IncorrectPassword;
+                loginState = new IncorrectPasswordLoginState();
             }
             else
             {
-                answerOfAuthentication = AuthResult.Success;
+                loginState = new AgentSuccessLoginState();
             }
         }
-        return answerOfAuthentication;
+        return loginState;
     }
-    public TypeOfUser getTypeOfUser(string username)
-    {
-        TypeOfUser userType;
-        userType = typeOfUserLoging.getTypeOfUser(username);
-        return userType;
-    }
-
 
     private bool usernameNotFound(string username)
     {

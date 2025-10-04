@@ -3,4 +3,8 @@ using System.Threading.Tasks;
 public interface IPresenterLogin
 {
     void Login(string usernameToVerify, string passwordToVerify);
+    void TellToUILoginToLogAnAgent();
+    void TellToUILoginToLogAnAdmin();
+    void TellToUILoginToShowUserNotFound();
+    void TellToUILoginToShowIncorrectPassword();
 }
