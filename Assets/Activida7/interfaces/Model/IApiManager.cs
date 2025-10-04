@@ -5,4 +5,6 @@ using UnityEngine;
 public interface IApiManager
 {
     Task<Texture2D> GetTexture(string url);
+
+    Task<string> GetUserJson();
 }

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Blake",
+        "last": "Lo"
+      },
+      "location": {
+        "street": {
+          "number": 5693,
+          "name": "Dieppe Ave"
+        },
+        "city": "Maidstone",
+        "state": "Newfoundland and Labrador",
+        "country": "Canada",
+        "postcode": "T0Z 1L2",
+        "coordinates": {
+          "latitude": "-70.4815",
+          "longitude": "-156.4203"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "blake.lo@example.com",
+      "login": {
+        "uuid": "29e95844-3824-45f3-8440-cc71ee264b4a",
+        "username": "goldenbear776",
+        "password": "driver",
+        "salt": "nIhqv9mH",
+        "md5": "fb3040410a0a440a5089bbe0aff37465",
+        "sha1": "cc2fb8e3b9eeca8767a72bebfb55aafcc6fc3a55",
+        "sha256": "64417ac503a2b45494b0b23eaed8c8f6332517a12eb041d33d440e9f8a8c424b",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1988-08-03T04:44:33.119Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2011-05-21T06:59:03.691Z",
+        "age": 14
+      },
+      "phone": "X81 K26-3679",
+      "cell": "Y25 B08-0951",
+      "id": {
+        "name": "SIN",
+        "value": "476354568"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+      },
+      "nat": "CA"
+    }
+  ],
+  "info": {
+    "seed": "48e8a6dbeeb26c4c",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

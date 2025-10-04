@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Chloe",
+        "last": "Black"
+      },
+      "location": {
+        "street": {
+          "number": 1330,
+          "name": "Stevens Creek Blvd"
+        },
+        "city": "Bowral",
+        "state": "Victoria",
+        "country": "Australia",
+        "postcode": 3938,
+        "coordinates": {
+          "latitude": "-89.6251",
+          "longitude": "104.7520"
+        },
+        "timezone": {
+          "offset": "+5:45",
+          "description": "Kathmandu"
+        }
+      },
+      "email": "chloe.black@example.com",
+      "login": {
+        "uuid": "311b2c2c-9981-4db1-8031-e67d60960449",
+        "username": "beautifulswan443",
+        "password": "christine",
+        "salt": "KFh1QhXb",
+        "md5": "c1f8d989344677eeedec03c6ed21b7a0",
+        "sha1": "75b9d0185d74beff9dcebacbf466e438f1df98e6",
+        "sha256": "f3da9191b1de2b1406b6bdf91830501491bf8bbc2b5651a8efdb4b45f470bbc1",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1971-03-04T06:50:59.245Z",
+        "age": 54
+      },
+      "registered": {
+        "date": "2019-04-25T19:13:35.088Z",
+        "age": 6
+      },
+      "phone": "00-6402-3629",
+      "cell": "0435-384-640",
+      "id": {
+        "name": "TFN",
+        "value": "821114933"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "019d20513c805f57",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

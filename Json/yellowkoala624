@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Jamie",
+        "last": "Knight"
+      },
+      "location": {
+        "street": {
+          "number": 6787,
+          "name": "Mcgowen St"
+        },
+        "city": "Mildura",
+        "state": "Northern Territory",
+        "country": "Australia",
+        "postcode": 9921,
+        "coordinates": {
+          "latitude": "-85.9097",
+          "longitude": "159.2502"
+        },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "jamie.knight@example.com",
+      "login": {
+        "uuid": "68c8a794-882f-463d-b3ef-69a2dc7457fd",
+        "username": "yellowkoala624",
+        "password": "tiberius",
+        "salt": "Gk8An2np",
+        "md5": "141b6cfda456c3431d3d29de4722f9e6",
+        "sha1": "0c36454ea4709a4a35395ebd4c1a9e2cf72daf18",
+        "sha256": "6d55b9b7c15780dba2b1301f409e8884d85c147f047a8a54de7b03403014a7ff",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1981-01-18T01:53:21.094Z",
+        "age": 44
+      },
+      "registered": {
+        "date": "2005-01-04T10:33:19.296Z",
+        "age": 20
+      },
+      "phone": "07-4234-9886",
+      "cell": "0416-595-614",
+      "id": {
+        "name": "TFN",
+        "value": "327409665"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/82.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "918940b78aa869a5",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

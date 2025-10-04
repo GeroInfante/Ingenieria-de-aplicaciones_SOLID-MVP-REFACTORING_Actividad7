@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Estela",
+        "last": "Armas"
+      },
+      "location": {
+        "street": {
+          "number": 1765,
+          "name": "Avenida Baja California Sur"
+        },
+        "city": "Pimienta",
+        "state": "Guanajuato",
+        "country": "Mexico",
+        "postcode": 55187,
+        "coordinates": {
+          "latitude": "27.8069",
+          "longitude": "44.5138"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "estela.armas@example.com",
+      "login": {
+        "uuid": "51e52195-83fb-49e1-9aaa-b3aaf975e0d5",
+        "username": "purpleostrich273",
+        "password": "patton",
+        "salt": "o9SK5guO",
+        "md5": "7f3962bb3cdeacc7c58ac952ad8a88f7",
+        "sha1": "a1547acc2d26d56f255fc720fccf2b1d9054b354",
+        "sha256": "9e2663a874dcdacc3afe6451ab3eecbe047f6a2b2c1a30b6ea8034adb5ba2c52",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1981-03-27T09:47:29.117Z",
+        "age": 44
+      },
+      "registered": {
+        "date": "2015-10-13T09:58:18.365Z",
+        "age": 9
+      },
+      "phone": "(654) 390 8305",
+      "cell": "(605) 864 6619",
+      "id": {
+        "name": "NSS",
+        "value": "30 97 11 7965 2"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/95.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/95.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/95.jpg"
+      },
+      "nat": "MX"
+    }
+  ],
+  "info": {
+    "seed": "f067c1bc2e29aa74",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -1,13 +1,16 @@
 using System;
 using System.Collections;
 using System.Threading.Tasks;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class APIManager_act6 :IApiManager
 {
+    private IParser Parser;
     public APIManager_act6()
     {
+        Parser = new ModelParser();
     }
     public async Task<Texture2D> GetTexture(string url)
     {
@@ -38,6 +41,46 @@ public class APIManager_act6 :IApiManager
         Debug.Log("Imagen descargada correctamente");
 
         return texture;
+    }
+
+   public async Task<string> GetUserJson()
+    {
+        bool exito = false;
+        string jsonCrudo = null;
+
+        while (!exito)
+        {
+            using (UnityWebRequest www = UnityWebRequest.Get("https://randomuser.me/api/"))
+            {
+                var operation = www.SendWebRequest();
+
+                // Espera asincrónica hasta que termine la descarga
+                while (!operation.isDone)
+                    await Task.Yield(); // Cede el hilo al resto mientras espera
+
+                if (www.result == UnityWebRequest.Result.Success)
+                {
+                    jsonCrudo = www.downloadHandler.text;
+
+                    if (Parser.IsValidJson(jsonCrudo))
+                    {
+                        exito = true;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("JSON inválido, reintentando...");
+                        await Task.Delay(1000); // Espera 1 segundo antes de reintentar
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("Error en la API: " + www.error + ", reintentando...");
+                    await Task.Delay(1000); // Espera 1 segundo antes de reintentar
+                }
+            }
+        }
+
+        return jsonCrudo;
     }
 }
 

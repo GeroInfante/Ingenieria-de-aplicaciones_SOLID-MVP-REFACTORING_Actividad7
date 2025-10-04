@@ -22,7 +22,6 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
     public void GenerateNewAgents()
     {
         PresenterAdmin.GenerateNewAgents();
-        Debug.Log("elimine");
     }
     
     public void Logout()

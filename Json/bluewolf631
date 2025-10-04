@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Rafael",
+        "last": "Gutiérrez"
+      },
+      "location": {
+        "street": {
+          "number": 8154,
+          "name": "Calle de Arganzuela"
+        },
+        "city": "San Sebastián",
+        "state": "Ceuta",
+        "country": "Spain",
+        "postcode": 67042,
+        "coordinates": {
+          "latitude": "-35.3851",
+          "longitude": "-73.2424"
+        },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "rafael.gutierrez@example.com",
+      "login": {
+        "uuid": "d6dd4b6a-df38-46ab-802e-9f732ad4b3fa",
+        "username": "bluewolf631",
+        "password": "789456",
+        "salt": "27mHzNRU",
+        "md5": "087ea2fcf2406a5d07325444cac0da31",
+        "sha1": "205efc151e84680e51249afc67a9f6d028266446",
+        "sha256": "ea165232a62f392487d3bb227aec36f4f03ba6f301e89beeb7c978b5c9e19700",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1999-12-19T18:28:13.822Z",
+        "age": 25
+      },
+      "registered": {
+        "date": "2011-05-01T19:14:54.313Z",
+        "age": 14
+      },
+      "phone": "916-827-196",
+      "cell": "659-366-463",
+      "id": {
+        "name": "DNI",
+        "value": "83072888-T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/22.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "81e1ae4e4f26d178",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

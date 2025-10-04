@@ -1,4 +1,6 @@
+using System.Threading.Tasks;
+
 public interface IModelAdmin
 {
-    void GenerateNewAgents();
+    Task GenerateNewAgents();
 }

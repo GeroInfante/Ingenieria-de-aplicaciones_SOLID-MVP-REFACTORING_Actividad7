@@ -9,7 +9,6 @@ public class PresenterAdmin : IPresenterAdmin
     public void GenerateNewAgents()
     {
         AdminModel.GenerateNewAgents();
-        UnityEngine.Debug.Log("Termina PResenter");
     }
 
 	public void showAllAgents()

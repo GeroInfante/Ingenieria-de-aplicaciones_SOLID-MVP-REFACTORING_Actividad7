@@ -4,6 +4,11 @@ using Newtonsoft.Json.Linq;
 
 public class ModelParser : IParser
 {
+    public bool IsValidJson(string json)
+    {
+        JObject jsonObject = JObject.Parse(json);
+        return jsonObject["results"] != null && jsonObject["results"].HasValues;
+    }
     public string getPassword(string json)
     {
         JObject objetoJson = JObject.Parse(json);

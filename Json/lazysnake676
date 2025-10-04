@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Monsieur",
+        "first": "Dragan",
+        "last": "Martinez"
+      },
+      "location": {
+        "street": {
+          "number": 8794,
+          "name": "Avenue Joliot Curie"
+        },
+        "city": "Neggio",
+        "state": "Schwyz",
+        "country": "Switzerland",
+        "postcode": 9433,
+        "coordinates": {
+          "latitude": "-62.1036",
+          "longitude": "-68.2552"
+        },
+        "timezone": {
+          "offset": "+3:00",
+          "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+        }
+      },
+      "email": "dragan.martinez@example.com",
+      "login": {
+        "uuid": "3a8e199c-752a-4985-957d-a657e8b455f4",
+        "username": "lazysnake676",
+        "password": "eddie1",
+        "salt": "DwkMMIuv",
+        "md5": "b0565354e489662ad8fd2179e0a93081",
+        "sha1": "6697ece8faf8b93991b4369e8e2017cf9054b44e",
+        "sha256": "34b0c6c7ec0b0df51b4954f0e72d1dc93992b078969f0310ecba65021fff7fa0",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1968-11-15T08:52:36.756Z",
+        "age": 56
+      },
+      "registered": {
+        "date": "2008-07-16T08:26:09.525Z",
+        "age": 17
+      },
+      "phone": "077 723 39 24",
+      "cell": "075 893 45 70",
+      "id": {
+        "name": "AVS",
+        "value": "756.0168.2914.77"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "f1785ef195f826ff",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
