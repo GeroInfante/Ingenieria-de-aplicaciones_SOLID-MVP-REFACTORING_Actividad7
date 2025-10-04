@@ -1,6 +1,6 @@
 public interface IPresenterAdmin
 {
-    public void GenerateNewAgents();
+    void GenerateNewAgents();
 
-    public void showAllAgents();
+    void showAllAgents();
 }
