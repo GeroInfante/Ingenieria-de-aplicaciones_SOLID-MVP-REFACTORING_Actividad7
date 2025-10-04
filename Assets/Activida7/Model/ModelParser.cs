@@ -1,4 +1,6 @@
+using System.Diagnostics;
 using Newtonsoft.Json.Linq;
+
 
 public class ModelParser : IParser
 {
@@ -8,6 +10,21 @@ public class ModelParser : IParser
         var personaJson = objetoJson["results"][0];
         string password = (string)personaJson["login"]["password"];
         return password;
+    }
+
+    public string GetUsername(string json)
+    {
+        JObject objetoJson = JObject.Parse(json);
+        var personaJson = objetoJson["results"][0];
+        string username = (string)personaJson["login"]["username"];
+        return username;
+    }
+    public string GetRole(string json)
+    {
+        JObject objetoJson = JObject.Parse(json);
+        var personaJson = objetoJson["results"][0];
+        string role = (string)personaJson["login"]["role"];
+        return role;    
     }
 
     public Persona getUser(string Json)
@@ -26,5 +43,12 @@ public class ModelParser : IParser
         persona.Imagen = (string)personaJson["picture"]["large"];
 
         return persona;
+    }
+
+    public string AddRoleAgentToJson(string json)
+    {
+        JObject objetoJson = JObject.Parse(json);
+        objetoJson["results"][0]["login"]["role"] = "agent";
+        return objetoJson.ToString();
     }
 }

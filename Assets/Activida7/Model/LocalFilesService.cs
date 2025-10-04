@@ -7,6 +7,7 @@ public class LocalFilesService : ILocalFileService
 {
     const String jsonsPathfolder = "./Json";
     public IParser parser;
+    private string ADMIN_ROLE = "admin";
 
     public LocalFilesService()
     {
@@ -33,6 +34,13 @@ public class LocalFilesService : ILocalFileService
         userFound = !userNotFound;
         Debug.Log("User foud: " + userFound);
         return userFound;
+    }
+    public bool CheckIfIsAdmin(string username)
+    {
+        string json = GetJsonTextwithUsername(username);
+        string roleOfUser = parser.GetRole(json);
+        bool isAdmin = ADMIN_ROLE == roleOfUser;
+        return isAdmin;
     }
 
     public bool CheckIfPasswordIsCorrect(string username, string password)

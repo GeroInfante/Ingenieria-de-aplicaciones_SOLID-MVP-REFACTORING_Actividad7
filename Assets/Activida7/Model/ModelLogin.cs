@@ -1,4 +1,6 @@
 
+using System.Diagnostics;
+
 public class ModelLogin : IModelLogin
 {
     public ILocalFileService localFileService;
@@ -13,31 +15,43 @@ public class ModelLogin : IModelLogin
     {
         ILoginState loginState;
 
-        if (usernameNotFound(username))
+        if (UsernameNotFound(username))
         {
             loginState = new UsernameNotFoundLoginState();
         }
         else
         {
-            if (passwordIsInvalid(username, password))
+            if (PasswordIsInvalid(username, password))
             {
                 loginState = new IncorrectPasswordLoginState();
             }
             else
             {
-                loginState = new AgentSuccessLoginState();
+                if (IsAdmin(username))
+                {
+                    UnityEngine.Debug.Log("Es Admin");
+                    loginState = new AdminSuccessLoginState();
+                }
+                else
+                    loginState = new AgentSuccessLoginState();
+
             }
         }
         return loginState;
     }
 
-    private bool usernameNotFound(string username)
+    private bool UsernameNotFound(string username)
     {
         return !localFileService.CheckIfUserExist(username);
     }
 
-    private bool passwordIsInvalid(string username, string password)
+    private bool PasswordIsInvalid(string username, string password)
     {
         return !localFileService.CheckIfPasswordIsCorrect(username, password);
+    }
+
+    private bool IsAdmin(string username)
+    {
+       return localFileService.CheckIfIsAdmin(username);
     }
 }
