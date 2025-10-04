@@ -9,19 +9,22 @@ public class UILogin : MonoBehaviour, IUILogin
     public TMP_InputField username, password;
 
     public TextMeshProUGUI userError, passwordError;
+    public GameObject PanelUILogin;
     private Color VISIBLE = Color.green;
     private Color NOTVISIBLE = Color.red;
 
 
 
     private IPresenterLogin loginPresenter;
-    public UIManager_Act6 UIManager;
+    public UIUserInfo panelUserInfo;
+    public UIAdmin panelAdmin;
     void Start()
     {
         loginPresenter = new PresenterLogin(this);
         ChangeTogglePasswordVisibilityColors(NOTVISIBLE);
         userError.gameObject.SetActive(false);
         passwordError.gameObject.SetActive(false);
+        PanelUILogin.SetActive(true);
     }
 
     public void TogglePasswordVisibility()
@@ -62,12 +65,13 @@ public class UILogin : MonoBehaviour, IUILogin
     public void showUser()
     {
         string usernameToshow = username.text;
-        UIManager.showUser(usernameToshow);
+        panelUserInfo.ShowUserInfo(usernameToshow);
     }
 
     public void ShowAdmin()
     {
-        UIManager.changeLogPanelToAdminPanel();
+        panelAdmin.gameObject.SetActive(true);
+        PanelUILogin.SetActive(false);
     }
 
     public void showUserNotFound()

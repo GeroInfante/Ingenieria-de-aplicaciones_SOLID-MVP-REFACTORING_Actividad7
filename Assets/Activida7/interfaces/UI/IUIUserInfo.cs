@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 public interface IUIUserInfo
 {
     void ShowuserInfoPanel();
-    void ShowUsername(string username);
+    void ShowUserInfo(string username);
     void LogoutUser();
     void showName(string name);
     void showLastName(string lastName);

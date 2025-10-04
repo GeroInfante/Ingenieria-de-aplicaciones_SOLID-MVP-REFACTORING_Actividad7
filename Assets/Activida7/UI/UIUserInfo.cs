@@ -10,20 +10,23 @@ public class UIUserInfo : MonoBehaviour, IUIUserInfo
     public TextMeshProUGUI agentName, agentLastName, agentAge, agentPhone, agentAddress, agentEmail;
     public Button logout;
     public Image agentImage;
-    public UIManager_Act6 UIManager;
     public IPresenterUserInfo userInfoPresenter;
+    public UILogin PanelUILogin;
+    public GameObject PanelInfoUser;
 
     public void ShowuserInfoPanel()
     {
-        UIManager.ChangeLogPanelToDataPanel();
+        PanelInfoUser.SetActive(true);
+        PanelUILogin.gameObject.SetActive(false);
     }
-    public void ShowUsername(string username)
+    public void ShowUserInfo(string username)
     {
         userInfoPresenter.showUser(username);
     }
     public void LogoutUser()
     {
-        UIManager.ChangeDataPanelToLogPanel();
+        PanelUILogin.gameObject.SetActive(true);
+        PanelInfoUser.SetActive(false);
     }
     public void showName(string name)
     {
@@ -59,6 +62,7 @@ public class UIUserInfo : MonoBehaviour, IUIUserInfo
     void Start()
     {
         userInfoPresenter = new PresenterUserInfo(this);
+        PanelInfoUser.SetActive(false);
     }
 
     // Update is called once per frame

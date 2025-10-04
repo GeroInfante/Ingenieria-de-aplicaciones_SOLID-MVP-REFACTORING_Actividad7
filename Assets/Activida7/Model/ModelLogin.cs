@@ -4,12 +4,9 @@ using System.Diagnostics;
 public class ModelLogin : IModelLogin
 {
     public ILocalFileService localFileService;
-    public ITypeOfUserLogin typeOfUserLoging;
-
     public ModelLogin()
     {
         localFileService = new LocalFilesService();
-        typeOfUserLoging = new TypeOfUserLogin();
     }
     public ILoginState authenticateLogin(string username, string password)
     {
@@ -29,7 +26,7 @@ public class ModelLogin : IModelLogin
             {
                 if (IsAdmin(username))
                 {
-                    UnityEngine.Debug.Log("Es Admin");
+                    UnityEngine.Debug.Log("No ");
                     loginState = new AdminSuccessLoginState();
                 }
                 else

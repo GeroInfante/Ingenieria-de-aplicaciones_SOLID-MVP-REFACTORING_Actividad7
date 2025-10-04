@@ -234,7 +234,8 @@ MonoBehaviour:
   agentEmail: {fileID: 275963204}
   logout: {fileID: 1634936552}
   agentImage: {fileID: 993416144}
-  UIManager: {fileID: 1726016919}
+  PanelUILogin: {fileID: 1214555739}
+  PanelInfoUser: {fileID: 176652718}
 --- !u!1 &275963202
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,9 +461,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ae8d4179aabaa46982f5dd87040618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addNewAgentButton: {fileID: 440763465}
-  showAllAgentsButton: {fileID: 1843954753}
-  logoutButton: {fileID: 443243052}
+  AddNewAgentButton: {fileID: 440763465}
+  ShowAllAgentsButton: {fileID: 1843954753}
+  LogoutButton: {fileID: 443243052}
+  PanelAdmin: {fileID: 314485491}
+  PanelUILogin: {fileID: 1214555739}
 --- !u!1 &362307749
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +895,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 443243053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 314485495}
+        m_TargetAssemblyTypeName: UIAdmin, Assembly-CSharp
+        m_MethodName: Logout
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &443243053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2935,7 +2950,9 @@ MonoBehaviour:
   password: {fileID: 975097916}
   userError: {fileID: 1836057877}
   passwordError: {fileID: 1867963035}
-  UIManager: {fileID: 1726016919}
+  PanelUILogin: {fileID: 1214555735}
+  panelUserInfo: {fileID: 176652722}
+  panelAdmin: {fileID: 314485495}
 --- !u!1 &1240706871
 GameObject:
   m_ObjectHideFlags: 0
@@ -3893,53 +3910,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634936550}
   m_CullTransparentMesh: 1
---- !u!1 &1726016918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1726016920}
-  - component: {fileID: 1726016919}
-  m_Layer: 0
-  m_Name: UIManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1726016919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726016918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc24ad6a499f01b418510aa3cc06f735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelLogin: {fileID: 1214555739}
-  panelUserInfo: {fileID: 176652722}
-  panelAdmin: {fileID: 314485495}
---- !u!4 &1726016920
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726016918}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 166.51074, y: 99.2105, z: 0.964237}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1744510786
 GameObject:
   m_ObjectHideFlags: 0
@@ -5796,4 +5766,3 @@ SceneRoots:
   - {fileID: 885339253}
   - {fileID: 1077641701}
   - {fileID: 1851440385}
-  - {fileID: 1726016920}
