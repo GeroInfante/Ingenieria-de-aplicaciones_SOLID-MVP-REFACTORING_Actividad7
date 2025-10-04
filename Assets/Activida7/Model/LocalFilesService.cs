@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LocalFilesService : ILocalFileService
 {
-    const String jsonsPathfolder = "./Json/Actividad6";
+    const String jsonsPathfolder = "./Json";
     public IParser parser;
 
     public LocalFilesService()
