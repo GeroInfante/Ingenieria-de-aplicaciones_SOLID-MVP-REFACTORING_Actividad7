@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Yatin",
+        "last": "Thampy"
+      },
+      "location": {
+        "street": {
+          "number": 9313,
+          "name": "Lamington Rd"
+        },
+        "city": "Jaipur",
+        "state": "Odisha",
+        "country": "India",
+        "postcode": 31254,
+        "coordinates": {
+          "latitude": "4.8377",
+          "longitude": "-130.8856"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "yatin.thampy@example.com",
+      "login": {
+        "uuid": "ffce66b3-9f75-47fd-94c6-a9bf71b7d858",
+        "username": "silvergorilla673",
+        "password": "davies",
+        "salt": "L8CvE02M",
+        "md5": "e82480e772c87ed660b1e607a54988d3",
+        "sha1": "49ea2640005755cd0db55e169bfb567500979f7a",
+        "sha256": "3c03167cb0ed0e3ad4ff24565c9fa01d4785cd2fd253f5e588ebeeab10837a4c",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1977-07-12T11:01:02.195Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2016-05-16T15:41:13.579Z",
+        "age": 9
+      },
+      "phone": "8074853571",
+      "cell": "9248129300",
+      "id": {
+        "name": "UIDAI",
+        "value": "645566599688"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/97.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
+      },
+      "nat": "IN"
+    }
+  ],
+  "info": {
+    "seed": "817d206ba73c71fc",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

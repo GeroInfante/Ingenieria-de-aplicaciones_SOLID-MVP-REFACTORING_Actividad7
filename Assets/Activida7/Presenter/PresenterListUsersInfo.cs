@@ -1,7 +1,7 @@
-public class PresenterLitUsersInfo : PresenterUserInfo, IPresenterListOfAllUsers 
+public class PresenterLitUsersInfo : PresenterUserInfoLogged, IPresenterListOfAllUsers 
 {
     
-    public PresenterLitUsersInfo(UIUserInfo ui) : base(ui) { }
+    public PresenterLitUsersInfo(UIUserInfoLogged ui) : base(ui) { }
 
 	public void GetNextUser()
 	{

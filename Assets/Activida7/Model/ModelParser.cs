@@ -31,6 +31,13 @@ public class ModelParser : IParser
         string role = (string)personaJson["login"]["role"];
         return role;    
     }
+    public string GetAgentImageURL(string json)
+    {
+        JObject objetoJson = JObject.Parse(json);
+        var personaJson = objetoJson["results"][0];
+        string image = (string)personaJson["picture"]["large"];
+        return image;    
+    }
 
     public Persona getUser(string Json)
     {

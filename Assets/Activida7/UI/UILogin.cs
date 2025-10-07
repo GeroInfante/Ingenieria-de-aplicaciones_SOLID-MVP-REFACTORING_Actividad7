@@ -16,7 +16,7 @@ public class UILogin : MonoBehaviour, IUILogin
 
 
     private IPresenterLogin loginPresenter;
-    public UIUserInfo panelUserInfo;
+    public UIUserInfoLogged panelUserInfo;
     public UIAdmin panelAdmin;
     void Start()
     {

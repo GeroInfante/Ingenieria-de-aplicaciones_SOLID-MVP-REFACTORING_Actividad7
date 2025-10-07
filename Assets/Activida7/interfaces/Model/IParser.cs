@@ -8,4 +8,5 @@ public interface IParser
     Persona getUser(string Json);
     string AddRoleAgentToJson(string json);
     bool IsValidJson(string json);
+    string GetAgentImageURL(string json);
 }

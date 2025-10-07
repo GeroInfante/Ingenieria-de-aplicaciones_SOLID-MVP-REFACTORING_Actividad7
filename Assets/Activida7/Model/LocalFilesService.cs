@@ -1,17 +1,30 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LocalFilesService : ILocalFileService
 {
     const String jsonsPathfolder = "./Json";
+    const String imagePathfolder = "./Image";
     public IParser parser;
     private string ADMIN_ROLE = "admin";
 
     public LocalFilesService()
     {
         parser = new ModelParser();
+    }
+
+    public Texture2D GetImageTextureWithUsername(string username)
+    {
+        //Busco imagen que el nombre corresponde con el username que me pasaron
+        string imagePath = Path.Combine(imagePathfolder, username+".png");
+        byte[] imageBytes = File.ReadAllBytes(imagePath);
+        Texture2D texture = new Texture2D(2, 2);
+        texture.LoadImage(imageBytes);
+        return texture;
+
     }
 
     public bool CheckIfUserExist(string username)
@@ -56,6 +69,20 @@ public class LocalFilesService : ILocalFileService
         string json = GetJsonTextwithUsername(username);
         Persona agentOrdered = parser.getUser(json);
         return agentOrdered;
+    }
+
+    public List<string> GetAllUsernamesOfAgents()
+    {
+        List<string> listWithAllUsernames = new List<string>();
+        foreach (string jsonDirectoryPath in Directory.EnumerateFiles(jsonsPathfolder))
+        {
+            string username = Path.GetFileName(jsonDirectoryPath);
+            if (!CheckIfIsAdmin(username))
+            {
+                listWithAllUsernames.Add(username);
+            }
+        }
+        return listWithAllUsernames;
     }
     private string GetJsonTextwithUsername(string username)
     {

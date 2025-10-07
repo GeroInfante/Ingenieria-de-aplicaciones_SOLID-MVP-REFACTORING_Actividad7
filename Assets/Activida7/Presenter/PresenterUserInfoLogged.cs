@@ -2,20 +2,20 @@ using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PresenterUserInfo : IPresenterUserInfo
+public class PresenterUserInfoLogged : IPresenterUserInfoLogged
 {
-    public UIUserInfo userInfoUI;
+    public UIUserInfoLogged userInfoUI;
     public IModelUserInfo userInfoModel;
 
-    public PresenterUserInfo(UIUserInfo ui)
+    public PresenterUserInfoLogged(UIUserInfoLogged ui)
     {
         userInfoUI = ui;
         userInfoModel = new ModelUserInfo();
     }
-    public async Task showUser(string username)
+    public void showUser(string username)
     {
         Persona agent = userInfoModel.GetAgentWithUsername(username);
-        Sprite image = await userInfoModel.GetAgentImage(agent.Imagen);
+        Sprite image = userInfoModel.GetAgentImage(username);
         showAgentInuserInfoInterface(agent, image);
         userInfoUI.ShowuserInfoPanel();
         

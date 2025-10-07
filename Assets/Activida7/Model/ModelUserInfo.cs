@@ -17,11 +17,9 @@ public class ModelUserInfo : IModelUserInfo
 
         return agentToReturn;
     }
-    public async Task<Sprite> GetAgentImage(string imageURL)
+    public Sprite GetAgentImage(string username)
     {
-        Texture2D texture = await apiManager.GetTexture(imageURL);
-
-        if (texture == null) return null;
+        Texture2D texture = localFiles.GetImageTextureWithUsername(username);
 
         return Sprite.Create(
             texture,

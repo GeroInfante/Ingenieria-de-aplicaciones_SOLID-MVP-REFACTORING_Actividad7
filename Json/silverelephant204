@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Okan",
+        "last": "Arıcan"
+      },
+      "location": {
+        "street": {
+          "number": 858,
+          "name": "Fatih Sultan Mehmet Cd"
+        },
+        "city": "Bilecik",
+        "state": "Çanakkale",
+        "country": "Turkey",
+        "postcode": 88491,
+        "coordinates": {
+          "latitude": "70.7907",
+          "longitude": "-116.0683"
+        },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "okan.arican@example.com",
+      "login": {
+        "uuid": "d1d1c23d-c438-4b27-92c3-1fc7b3397483",
+        "username": "silverelephant204",
+        "password": "blues1",
+        "salt": "YtlHUjEv",
+        "md5": "44e780abefb03e38f4c41a7ee6c891fc",
+        "sha1": "6a324a71a4fc9b0699fa71ff25a08bfc8b217111",
+        "sha256": "f6c0cacfd3433a97adc99051cea5475f08aaea223e6fd370f3a355229b402ff6",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1998-02-03T22:47:41.649Z",
+        "age": 27
+      },
+      "registered": {
+        "date": "2018-07-08T23:32:11.516Z",
+        "age": 7
+      },
+      "phone": "(722)-643-5161",
+      "cell": "(074)-864-6433",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "e53137c8ab811946",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -5,9 +5,9 @@ using TMPro;
 using UnityEngine.UI;
 using System.Threading.Tasks;
 
-public class UIUserInfo : UIShowUserInfoInPanel, IUIUserInfoLogged
+public class UIUserInfoLogged : UIShowUserInfoInPanel, IUIUserInfoLogged
 {
-    public IPresenterUserInfo userInfoPresenter;
+    public IPresenterUserInfoLogged userInfoPresenter;
 
     public void ShowuserInfoPanel()
     {
@@ -22,7 +22,7 @@ public class UIUserInfo : UIShowUserInfoInPanel, IUIUserInfoLogged
     // Start is called before the first frame update
     void Start()
     {
-        userInfoPresenter = new PresenterUserInfo(this);
+        userInfoPresenter = new PresenterUserInfoLogged(this);
         userInformationPanel.SetActive(false);
     }
 

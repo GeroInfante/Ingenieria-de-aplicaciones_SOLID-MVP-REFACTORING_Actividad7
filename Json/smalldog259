@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Magdalina",
+        "last": "Gromiki"
+      },
+      "location": {
+        "street": {
+          "number": 9333,
+          "name": "Menahema Mendla Shneiersona"
+        },
+        "city": "Simferopol",
+        "state": "Lvivska",
+        "country": "Ukraine",
+        "postcode": 15917,
+        "coordinates": {
+          "latitude": "80.3310",
+          "longitude": "32.6362"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "magdalina.gromiki@example.com",
+      "login": {
+        "uuid": "736aefc8-1a96-4450-a76c-22e206e104c5",
+        "username": "smalldog259",
+        "password": "havana",
+        "salt": "OKypxb5D",
+        "md5": "ce9a22f6792cc886bcc2986e17c184b2",
+        "sha1": "17c334c43f69c77ffb47866eefd12f46e144d639",
+        "sha256": "6d959ad70d3125a83e5540a8631fad91e88d4c8f56326ebab9b54f7b199315ac",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1996-09-18T14:14:48.82Z",
+        "age": 29
+      },
+      "registered": {
+        "date": "2005-06-13T03:52:03.229Z",
+        "age": 20
+      },
+      "phone": "(068) X10-2736",
+      "cell": "(068) F36-4095",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/4.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/4.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+      },
+      "nat": "UA"
+    }
+  ],
+  "info": {
+    "seed": "e556c63be10dc4a1",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

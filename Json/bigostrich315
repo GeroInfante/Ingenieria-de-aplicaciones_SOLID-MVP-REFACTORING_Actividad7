@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Mathias",
+        "last": "Madsen"
+      },
+      "location": {
+        "street": {
+          "number": 2764,
+          "name": "Guldborgvej"
+        },
+        "city": "Øster Assels",
+        "state": "Syddanmark",
+        "country": "Denmark",
+        "postcode": 25017,
+        "coordinates": {
+          "latitude": "-45.2117",
+          "longitude": "-47.0402"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "mathias.madsen@example.com",
+      "login": {
+        "uuid": "97f44fd2-103f-4c45-a91a-39cf6724d22e",
+        "username": "bigostrich315",
+        "password": "marines",
+        "salt": "fbo9Xsu6",
+        "md5": "1632c12afbfebbf192b06ba61c6847e0",
+        "sha1": "ea65cebc5a293eaa266783e201de63aa93b68344",
+        "sha256": "21ad65927da9ef23b60ae7f34434a18fb1cfcbf4ca4fd8f632d81a48e292b60b",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1978-05-02T08:48:35.069Z",
+        "age": 47
+      },
+      "registered": {
+        "date": "2017-06-15T15:42:40.871Z",
+        "age": 8
+      },
+      "phone": "44128119",
+      "cell": "19696335",
+      "id": {
+        "name": "CPR",
+        "value": "020578-2819"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/96.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/96.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/96.jpg"
+      },
+      "nat": "DK"
+    }
+  ],
+  "info": {
+    "seed": "506144f9459a5b52",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

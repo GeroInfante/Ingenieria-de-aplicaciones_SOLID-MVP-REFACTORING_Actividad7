@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Tyler",
+        "last": "Rogers"
+      },
+      "location": {
+        "street": {
+          "number": 1787,
+          "name": "New Street"
+        },
+        "city": "Portmarnock",
+        "state": "Cork",
+        "country": "Ireland",
+        "postcode": 97141,
+        "coordinates": {
+          "latitude": "-4.1337",
+          "longitude": "-71.9289"
+        },
+        "timezone": {
+          "offset": "+9:00",
+          "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+        }
+      },
+      "email": "tyler.rogers@example.com",
+      "login": {
+        "uuid": "fcd27c1f-8e4b-4825-931f-8f6f4f1ff9da",
+        "username": "beautifulzebra581",
+        "password": "chip",
+        "salt": "I6sUIkwf",
+        "md5": "608a26362f2f2e9ec15fe2869bda45f1",
+        "sha1": "b1cfa5b87a70b421c4667232ea8fa3b860e293ae",
+        "sha256": "dddad37c7c9b96e6d72df8a58748770b5afdbe0631028a6e9e60aa7e852260f2",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1998-04-30T11:21:19.552Z",
+        "age": 27
+      },
+      "registered": {
+        "date": "2010-06-22T14:47:14.125Z",
+        "age": 15
+      },
+      "phone": "021-909-9586",
+      "cell": "081-939-3053",
+      "id": {
+        "name": "PPS",
+        "value": "4899531T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/95.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/95.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/95.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "d4d3f5a3a8c3cf9e",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

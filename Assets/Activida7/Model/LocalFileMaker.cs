@@ -1,8 +1,10 @@
 using System.IO;
+using UnityEngine;
 
 public class LocalFileMaker : ILocalFileMaker
 {
     private string PathJsonsFolder = "./Json";
+    private string PathImageFolder = "./Image";
     private IParser Parser;
     private ILocalFileService LocalFileService;
 
@@ -12,8 +14,12 @@ public class LocalFileMaker : ILocalFileMaker
         LocalFileService = new LocalFilesService();
     }
 
-
-    public void FlushAllLocalAgentsFiles()
+    public void FlushAll()
+    {
+        FlushAllLocalAgentsFiles();
+        FlushAllLocalImagesFiles();
+    }
+    private void FlushAllLocalAgentsFiles()
     {
         foreach (string jsonDirectoryPath in Directory.EnumerateFiles(PathJsonsFolder))
         {
@@ -23,15 +29,18 @@ public class LocalFileMaker : ILocalFileMaker
             }
         }
     }
+    private void FlushAllLocalImagesFiles()
+    {
+        foreach (string imageDirectoryPath in Directory.EnumerateFiles(PathImageFolder))
+        {
+            File.Delete(imageDirectoryPath); 
+        }
+    }
     private bool IsAgent(string jsonDirectory)
     {
         string username = Path.GetFileName(jsonDirectory);
         bool isAgent = !LocalFileService.CheckIfIsAdmin(username);
         return isAgent;
-    }
-    private string GetJsonTextWithPath(string jsonPath)
-    {
-        return File.ReadAllText(jsonPath);
     }
 
     public void MakeNewLocalJsonDirectory(string jsonString)
@@ -39,6 +48,12 @@ public class LocalFileMaker : ILocalFileMaker
         string jsonWithAgentRole = AddRoleAgentToJson(jsonString);
         string nameOfJsonFileToCreate = Parser.GetUsername(jsonWithAgentRole);
         CreateFileWithJson(nameOfJsonFileToCreate, jsonWithAgentRole);
+    }
+    public void SaveImageTextureWithUsername(Texture2D texture, string username)
+    {
+        byte[] bytes = texture.EncodeToPNG();
+        string path = PathImageFolder+"/"+ username + ".png";
+        File.WriteAllBytes(path, bytes);
     }
 
     private string AddRoleAgentToJson(string json)
