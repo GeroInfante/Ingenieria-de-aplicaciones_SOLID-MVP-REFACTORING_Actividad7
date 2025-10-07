@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Soledad",
+        "last": "Urbina"
+      },
+      "location": {
+        "street": {
+          "number": 3560,
+          "name": "Cerrada México"
+        },
+        "city": "Tecomatlán",
+        "state": "Zacatecas",
+        "country": "Mexico",
+        "postcode": 93185,
+        "coordinates": {
+          "latitude": "22.5365",
+          "longitude": "27.9719"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "soledad.urbina@example.com",
+      "login": {
+        "uuid": "ee6555df-ee6b-4e35-828c-2eccbf03f0c7",
+        "username": "silverdog928",
+        "password": "klingon",
+        "salt": "6zT3nusj",
+        "md5": "c64dca266d5e25fa2206c374a50413c4",
+        "sha1": "af7e2f8ee0b1baba549207e55d2b88c3ccca9c80",
+        "sha256": "cf3ea8b535e2a5938fd6710640c08b4913b2a63def3cb4339b833484751a4019",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1990-09-14T02:01:55.786Z",
+        "age": 35
+      },
+      "registered": {
+        "date": "2017-10-20T05:02:04.174Z",
+        "age": 7
+      },
+      "phone": "(690) 290 8434",
+      "cell": "(613) 095 7396",
+      "id": {
+        "name": "NSS",
+        "value": "65 16 80 2876 5"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/67.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/67.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/67.jpg"
+      },
+      "nat": "MX"
+    }
+  ],
+  "info": {
+    "seed": "7e2b1c9c109e96cf",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

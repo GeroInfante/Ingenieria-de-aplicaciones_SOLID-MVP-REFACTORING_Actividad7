@@ -1,7 +1,7 @@
-public class IncorrectPasswordLoginState : LoginState
+public class IncorrectPasswordLoginState : ILoginState
 {
-    public override void LogUser()
+    public void LogUser(IPresenterLogin loginPresenter)
     {
-        LoginPresenter.TellToUILoginToShowIncorrectPassword();
+        loginPresenter.TellToUILoginToShowIncorrectPassword();
     }
 }

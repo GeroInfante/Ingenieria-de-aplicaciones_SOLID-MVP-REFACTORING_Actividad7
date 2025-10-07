@@ -1,7 +1,7 @@
-public class AdminSuccessLoginState : LoginState
+public class AdminSuccessLoginState : ILoginState
 {
-    public override void LogUser()
+    public void LogUser(IPresenterLogin loginPresenter)
     {
-        LoginPresenter.TellToUILoginToLogAnAdmin();
+        loginPresenter.TellToUILoginToLogAnAdmin();
     }
 }

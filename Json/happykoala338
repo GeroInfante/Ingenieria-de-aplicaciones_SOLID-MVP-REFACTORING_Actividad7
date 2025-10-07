@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Anna-Maria",
+        "last": "Reinartz"
+      },
+      "location": {
+        "street": {
+          "number": 4478,
+          "name": "Drosselweg"
+        },
+        "city": "Aichach",
+        "state": "Sachsen-Anhalt",
+        "country": "Germany",
+        "postcode": 31366,
+        "coordinates": {
+          "latitude": "-51.9470",
+          "longitude": "60.9149"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "anna-maria.reinartz@example.com",
+      "login": {
+        "uuid": "0b14730d-363c-4a03-b976-7457320ecc72",
+        "username": "happykoala338",
+        "password": "hubert",
+        "salt": "zpUObm7L",
+        "md5": "fafaf79a73b9063408da64eba9ccaa19",
+        "sha1": "0652aaffff358b92fcb46a24e9bcc1b713d7bef5",
+        "sha256": "8729c064213fae60728dc2e4d9422d8030785479f918606d8c4dadd095ef5a4b",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1962-08-03T11:06:30.748Z",
+        "age": 63
+      },
+      "registered": {
+        "date": "2011-08-01T18:38:53.456Z",
+        "age": 14
+      },
+      "phone": "0108-7841458",
+      "cell": "0176-6622500",
+      "id": {
+        "name": "SVNR",
+        "value": "10 030862 R 529"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/24.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/24.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/24.jpg"
+      },
+      "nat": "DE"
+    }
+  ],
+  "info": {
+    "seed": "321e2d4585a3b3c3",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

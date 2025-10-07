@@ -16,8 +16,7 @@ public class PresenterLogin : IPresenterLogin
     public void Login(string usernameToVerify, string passwordToVerify)
     {
         ILoginState loginState = loginModel.authenticateLogin(usernameToVerify, passwordToVerify); // Me retorna un LogState
-        loginState.SetLoginPresenter(this);
-        loginState.LogUser();
+        loginState.LogUser(this);
     }
     public void TellToUILoginToLogAnAgent()
     {

@@ -1,7 +1,7 @@
-public class UsernameNotFoundLoginState : LoginState
+public class UsernameNotFoundLoginState : ILoginState
 {
-    public override void LogUser()
+    public void LogUser(IPresenterLogin loginPresenter)
     {
-        LoginPresenter.TellToUILoginToShowUserNotFound();
+        loginPresenter.TellToUILoginToShowUserNotFound();
     }
 }

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Anna",
+        "last": "Montero"
+      },
+      "location": {
+        "street": {
+          "number": 9565,
+          "name": "Calle de Arganzuela"
+        },
+        "city": "Lugo",
+        "state": "Melilla",
+        "country": "Spain",
+        "postcode": 59436,
+        "coordinates": {
+          "latitude": "-36.5357",
+          "longitude": "0.3379"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "anna.montero@example.com",
+      "login": {
+        "uuid": "19baf47d-80ff-4a31-866e-1b3ae0e55771",
+        "username": "tinybutterfly773",
+        "password": "hammond",
+        "salt": "a88Pmeqz",
+        "md5": "133aafc271f0823e3403e3a5f1f933d9",
+        "sha1": "25bad88802d0a047c8e2c89c739811af0fffbcdb",
+        "sha256": "83cff3f89aea0f87334c7bf93d5d46f97ef0a1008fac9fd1c07d9848b6a443ea",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1956-03-23T07:52:00.791Z",
+        "age": 69
+      },
+      "registered": {
+        "date": "2015-04-27T20:14:10.952Z",
+        "age": 10
+      },
+      "phone": "909-334-403",
+      "cell": "635-203-695",
+      "id": {
+        "name": "DNI",
+        "value": "77429099-S"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/88.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/88.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "1cb363e5797aa768",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

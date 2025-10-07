@@ -1,7 +1,7 @@
-public class AgentSuccessLoginState : LoginState
+public class AgentSuccessLoginState : ILoginState
 {
-    public override void LogUser()
+    public void LogUser(IPresenterLogin loginPresenter)
     {
-        LoginPresenter.TellToUILoginToLogAnAgent();
+        loginPresenter.TellToUILoginToLogAnAgent();
     }
 }

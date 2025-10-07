@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Eliza",
+        "last": "Robertson"
+      },
+      "location": {
+        "street": {
+          "number": 8452,
+          "name": "North Road"
+        },
+        "city": "Carrigaline",
+        "state": "Wicklow",
+        "country": "Ireland",
+        "postcode": 84219,
+        "coordinates": {
+          "latitude": "-3.1092",
+          "longitude": "98.0556"
+        },
+        "timezone": {
+          "offset": "+3:00",
+          "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+        }
+      },
+      "email": "eliza.robertson@example.com",
+      "login": {
+        "uuid": "5ca8d73f-d98f-41e1-a9aa-686825575007",
+        "username": "purplegorilla564",
+        "password": "patty",
+        "salt": "MG0f5e3J",
+        "md5": "008a7f89896d6ebc3f15edfbefab2986",
+        "sha1": "5e9d869416eb4f74b18cb39f54f9388a72cb93b9",
+        "sha256": "8318e1ecd2179354842ba1b8f7e9a4175f32bfd4d9972960a17ae50150886d67",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1968-05-24T07:37:10.451Z",
+        "age": 57
+      },
+      "registered": {
+        "date": "2013-04-11T19:04:08.343Z",
+        "age": 12
+      },
+      "phone": "031-343-0047",
+      "cell": "081-322-7028",
+      "id": {
+        "name": "PPS",
+        "value": "8753452T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/16.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/16.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/16.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "42bd60268504912f",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

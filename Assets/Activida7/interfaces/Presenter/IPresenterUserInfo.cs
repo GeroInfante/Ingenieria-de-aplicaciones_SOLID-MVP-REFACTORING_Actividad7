@@ -1,7 +1,8 @@
 
 using System.Threading.Tasks;
+using UnityEngine;
 
 public interface IPresenterUserInfo
 {
-    Task showUser(string username);
+    public Task showUser(string username);
 }

@@ -1,12 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System.Threading.Tasks;
 
-public interface IUIUserInfo
+public interface IUIShowUserInfoInPanel
 {
-    void ShowuserInfoPanel();
-    void ShowUserInfo(string username);
     void LogoutUser();
     void showName(string name);
     void showLastName(string lastName);

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Lydia",
+        "last": "Vasquez"
+      },
+      "location": {
+        "street": {
+          "number": 127,
+          "name": "Smokey Ln"
+        },
+        "city": "Long Beach",
+        "state": "Illinois",
+        "country": "United States",
+        "postcode": 65324,
+        "coordinates": {
+          "latitude": "82.9018",
+          "longitude": "151.2365"
+        },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+        }
+      },
+      "email": "lydia.vasquez@example.com",
+      "login": {
+        "uuid": "9e620c84-9504-4a3a-8459-c4fa1ec9a963",
+        "username": "organicrabbit347",
+        "password": "fredrick",
+        "salt": "vcqPoNar",
+        "md5": "e83189d93cda51c4cde5a1912db159dd",
+        "sha1": "93b721b241b8b437edb8477af0cc1a35cb1b7270",
+        "sha256": "fab8b895b06a27fbce7dcc3db50a7ee71ba27f53433024c8f249c4a7564c0bf3",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "2000-02-05T15:12:58.214Z",
+        "age": 25
+      },
+      "registered": {
+        "date": "2015-10-01T23:17:27.535Z",
+        "age": 10
+      },
+      "phone": "(975) 754-2722",
+      "cell": "(725) 952-2034",
+      "id": {
+        "name": "SSN",
+        "value": "352-93-0138"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "59552d906c0b8fd3",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

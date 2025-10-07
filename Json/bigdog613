@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Primitivo",
+        "last": "Caldeira"
+      },
+      "location": {
+        "street": {
+          "number": 3013,
+          "name": "Rua Rui Barbosa "
+        },
+        "city": "São Vicente",
+        "state": "Rio de Janeiro",
+        "country": "Brazil",
+        "postcode": 11450,
+        "coordinates": {
+          "latitude": "-75.0235",
+          "longitude": "-148.4429"
+        },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+        }
+      },
+      "email": "primitivo.caldeira@example.com",
+      "login": {
+        "uuid": "c1249eb0-88bc-42bc-a712-9bbab14a8616",
+        "username": "bigdog613",
+        "password": "jensen",
+        "salt": "GFSViRXP",
+        "md5": "1ff99acba1d7130646af739062a5223e",
+        "sha1": "7999466764bb675fb9d9406040421b0680665785",
+        "sha256": "67ef4d2f34cbce93a7d0a822df3b4a2dc452fccec3d86ccb38d84c48c704e61e",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1985-04-20T06:24:24.341Z",
+        "age": 40
+      },
+      "registered": {
+        "date": "2016-04-03T19:51:52.153Z",
+        "age": 9
+      },
+      "phone": "(60) 2653-1466",
+      "cell": "(65) 6583-3364",
+      "id": {
+        "name": "CPF",
+        "value": "833.703.084-22"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/66.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/66.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/66.jpg"
+      },
+      "nat": "BR"
+    }
+  ],
+  "info": {
+    "seed": "d3bdd2cb66416fa9",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
