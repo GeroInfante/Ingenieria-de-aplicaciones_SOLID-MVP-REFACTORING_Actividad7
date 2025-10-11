@@ -2,35 +2,36 @@ using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PresenterUserInfoLogged : IPresenterUserInfoLogged
+public class PresenterUserInfoLogged : PresenterShowUserInfoInPanel, IPresenterUserInfoLogged
 {
-    public UIUserInfoLogged userInfoUI;
-    public IModelUserInfo userInfoModel;
+    public IUIUserInfoLogged userInfoUI;
+    protected IModelUserInfo userInfoModel;
 
     public PresenterUserInfoLogged(UIUserInfoLogged ui)
     {
         userInfoUI = ui;
+        userShowInfoUI = ui;
         userInfoModel = new ModelUserInfo();
     }
     public void showUser(string username)
     {
-        Persona agent = userInfoModel.GetAgentWithUsername(username);
-        Sprite image = userInfoModel.GetAgentImage(username);
-        showAgentInuserInfoInterface(agent, image);
+        Persona agent = GetAgent(username);
+        Sprite image = GetAgentImage(username);
+        ShowAgentInuserInfoInterface(agent, image);
         userInfoUI.ShowuserInfoPanel();
-        
     }
 
-    private void showAgentInuserInfoInterface(Persona agentToShow, Sprite image)
+
+    private Persona GetAgent(string username)
     {
-        userInfoUI.showName(agentToShow.Nombre);
-        userInfoUI.showLastName(agentToShow.Apellido);
-        userInfoUI.showAge(agentToShow.Edad);
-        userInfoUI.showPhone(agentToShow.Telefono);
-        Debug.Log(agentToShow.Telefono);
-        userInfoUI.showAddress(agentToShow.Direccion);
-        userInfoUI.showEmail(agentToShow.Email);
-        userInfoUI.showImage(image);
+        Persona agent = userInfoModel.GetAgentWithUsername(username);
+        return agent;
     }
+    private Sprite GetAgentImage(string username)
+    {
+        Sprite agentSprite = userInfoModel.GetAgentImage(username);
+        return agentSprite;
+    }
+
 
 }

@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using System.Collections.Generic;
 
 public interface ILocalFileService
 {
@@ -8,5 +9,5 @@ public interface ILocalFileService
     bool CheckIfUserExist(string username);
     bool CheckIfIsAdmin(string username);
     Texture2D GetImageTextureWithUsername(string username);
-
+    List<string> GetAllUsernamesOfAgents();
 }

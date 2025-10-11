@@ -6,6 +6,7 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
     public Button AddNewAgentButton, ShowAllAgentsButton, LogoutButton;
     public GameObject PanelAdmin;
     public UILogin PanelUILogin;
+    public UIListOfAllUsersInfo PanelListOfAllUsers;
     private IPresenterAdmin PresenterAdmin;
 
     void Start()
@@ -16,7 +17,8 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
 
     public void ShowAllAgents()
     {
-        
+        PanelListOfAllUsers.ShowFirstUser();
+        ChangeAdminPanelToAllUsersListPanel();
     }
 
     public void GenerateNewAgents()
@@ -33,7 +35,11 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
         PanelUILogin.gameObject.SetActive(true);
         PanelAdmin.SetActive(false);
     }
-
+    private void ChangeAdminPanelToAllUsersListPanel()
+    {
+        PanelListOfAllUsers.gameObject.SetActive(true);
+        PanelAdmin.SetActive(false);
+    }
 
 
     void Update()
