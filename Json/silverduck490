@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Emma",
+        "last": "Mahamud"
+      },
+      "location": {
+        "street": {
+          "number": 693,
+          "name": "Langerudhaugen"
+        },
+        "city": "Trolldalen",
+        "state": "Buskerud",
+        "country": "Norway",
+        "postcode": "6600",
+        "coordinates": {
+          "latitude": "44.3403",
+          "longitude": "126.5092"
+        },
+        "timezone": {
+          "offset": "+9:30",
+          "description": "Adelaide, Darwin"
+        }
+      },
+      "email": "emma.mahamud@example.com",
+      "login": {
+        "uuid": "480e17d2-ec72-42b0-84ec-36208a7931b8",
+        "username": "silverduck490",
+        "password": "telephon",
+        "salt": "VBilSddp",
+        "md5": "dbc6bd3df3a8ba52575064715bfd4128",
+        "sha1": "2882d720801ba74d884c92325422359ff6248d7b",
+        "sha256": "2df16061d50b6f1fd147ad75f06862ce2a2cefb1e5712723ae295dcf3366de64",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1955-03-30T04:13:05.472Z",
+        "age": 70
+      },
+      "registered": {
+        "date": "2002-07-23T07:32:13.67Z",
+        "age": 23
+      },
+      "phone": "64620752",
+      "cell": "94624132",
+      "id": {
+        "name": "FN",
+        "value": "30035511047"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/51.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "2562bc5c77ff043a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

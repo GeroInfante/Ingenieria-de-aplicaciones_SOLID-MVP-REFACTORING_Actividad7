@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Gudula",
+        "last": "Schaffrath"
+      },
+      "location": {
+        "street": {
+          "number": 4757,
+          "name": "Mühlweg"
+        },
+        "city": "Wanfried",
+        "state": "Bremen",
+        "country": "Germany",
+        "postcode": 35612,
+        "coordinates": {
+          "latitude": "-48.6637",
+          "longitude": "31.5515"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "gudula.schaffrath@example.com",
+      "login": {
+        "uuid": "5c0c7be4-4c6a-46fc-b378-a69ea751cf3d",
+        "username": "lazyostrich488",
+        "password": "hondas",
+        "salt": "XxQA9UEm",
+        "md5": "6ae076c3582540873f6e358849a5c24f",
+        "sha1": "704d2fd81306e7f9c9aaea0299cc385e69fffb9c",
+        "sha256": "a80f54a1654183e2dc027cbe1fd2562f6f49562f53c15d9052c2e25c952d26d0",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1979-04-26T09:18:14.511Z",
+        "age": 46
+      },
+      "registered": {
+        "date": "2019-11-24T20:34:06.468Z",
+        "age": 5
+      },
+      "phone": "0431-7928039",
+      "cell": "0177-9354648",
+      "id": {
+        "name": "SVNR",
+        "value": "55 260479 S 554"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/63.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/63.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
+      },
+      "nat": "DE"
+    }
+  ],
+  "info": {
+    "seed": "e8c98c910d0151a2",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

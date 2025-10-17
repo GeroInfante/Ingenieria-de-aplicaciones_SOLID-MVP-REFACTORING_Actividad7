@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Embla",
+        "last": "Rekstad"
+      },
+      "location": {
+        "street": {
+          "number": 5714,
+          "name": "Østhellinga"
+        },
+        "city": "Bru",
+        "state": "Vestfold",
+        "country": "Norway",
+        "postcode": "6069",
+        "coordinates": {
+          "latitude": "42.3919",
+          "longitude": "129.5835"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "embla.rekstad@example.com",
+      "login": {
+        "uuid": "4a019f1f-a106-4490-82bc-30c8c681e264",
+        "username": "smallduck115",
+        "password": "randolph",
+        "salt": "gaxpJbak",
+        "md5": "64395ecc4f28482b3fb6ce0bbc8a6ef8",
+        "sha1": "b715dca2720d61d09513d52116422c1adfb418ab",
+        "sha256": "64990942a72fe07fe194ffb70d554c6dfaf7393a45c21254442b1a62e0cd6041",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1989-10-20T14:51:39.085Z",
+        "age": 35
+      },
+      "registered": {
+        "date": "2013-05-05T23:05:32.124Z",
+        "age": 12
+      },
+      "phone": "55191430",
+      "cell": "45571662",
+      "id": {
+        "name": "FN",
+        "value": "20108923661"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/74.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "59c7f12d3855b449",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

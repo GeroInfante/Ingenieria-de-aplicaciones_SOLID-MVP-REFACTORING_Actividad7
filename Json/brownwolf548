@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Deniz",
+        "last": "Erdoğan"
+      },
+      "location": {
+        "street": {
+          "number": 2375,
+          "name": "Doktorlar Cd"
+        },
+        "city": "İstanbul",
+        "state": "Rize",
+        "country": "Turkey",
+        "postcode": 37508,
+        "coordinates": {
+          "latitude": "66.8525",
+          "longitude": "137.0128"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "deniz.erdogan@example.com",
+      "login": {
+        "uuid": "45bb326a-450b-4881-8513-e7b653391a19",
+        "username": "brownwolf548",
+        "password": "attitude",
+        "salt": "ubTFIfXx",
+        "md5": "d1d4e76bd430177e5265a99e98de7788",
+        "sha1": "1f8914120c9bbc6692e0d07bebd1254f78704b6a",
+        "sha256": "4d5ec13e24b255c34ebcb4a536479821337f6d3bd69dceae5f897d13b78d9524",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1985-10-20T18:26:12.023Z",
+        "age": 39
+      },
+      "registered": {
+        "date": "2010-09-30T02:14:59.721Z",
+        "age": 15
+      },
+      "phone": "(225)-060-6107",
+      "cell": "(808)-240-1006",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/35.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/35.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/35.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "cbdb2e0d0a0dd14c",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

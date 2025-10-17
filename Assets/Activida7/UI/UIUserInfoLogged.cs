@@ -1,20 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
-using System.Threading.Tasks;
 
-public class UIUserInfoLogged : UIShowUserInfoInPanel, IUIUserInfoLogged
+public class UIUserInfoLogged : IUIUserInfoLogged
 {
     public IPresenterUserInfoLogged userInfoPresenter;
 
-    public void ShowuserInfoPanel()
+    public override void ShowuserInfoPanel()
     {
         userInformationPanel.SetActive(true);
         PreviousPanel.SetActive(false);
     }
-    public void ShowUserInfo(string username)
+    public override void ShowUserInfo(string username)
     {
         userInfoPresenter.showUser(username);
     }

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Boban",
+        "last": "Vogelaar"
+      },
+      "location": {
+        "street": {
+          "number": 4702,
+          "name": "Korte Smidsweg"
+        },
+        "city": "Ravenstein",
+        "state": "Drenthe",
+        "country": "Netherlands",
+        "postcode": "6490 IO",
+        "coordinates": {
+          "latitude": "30.0392",
+          "longitude": "-28.6183"
+        },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "boban.vogelaar@example.com",
+      "login": {
+        "uuid": "1e37fb10-4893-40f2-81e4-7f96853f87ae",
+        "username": "tinyelephant520",
+        "password": "bama",
+        "salt": "qGKmc8lU",
+        "md5": "9b41ab52dbb1422003db7e3ab14c7b55",
+        "sha1": "a9143202d619bf0cc6106288f69f784149bd3eea",
+        "sha256": "6f3be278cbbea810428a4c784120e1d8ff850002db26bae38b28a5ffb9b252df",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1999-05-10T22:22:01.423Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2014-09-15T14:34:00.644Z",
+        "age": 11
+      },
+      "phone": "(053) 2954690",
+      "cell": "(06) 02811525",
+      "id": {
+        "name": "BSN",
+        "value": "73945415"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/41.jpg"
+      },
+      "nat": "NL"
+    }
+  ],
+  "info": {
+    "seed": "e74ae44a9ce7f0c9",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

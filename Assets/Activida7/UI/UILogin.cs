@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UILogin : MonoBehaviour, IUILogin
+public class UILogin : IUILogin
 {
     public Button togglePasswordVisibility, login;
     public TMP_InputField username, password;
@@ -16,8 +16,8 @@ public class UILogin : MonoBehaviour, IUILogin
 
 
     private IPresenterLogin loginPresenter;
-    public UIUserInfoLogged panelUserInfo;
-    public UIAdmin panelAdmin;
+    public IUIUserInfoLogged panelUserInfo;
+    public IUIAdmin panelAdmin;
     void Start()
     {
         loginPresenter = new PresenterLogin(this);
@@ -55,30 +55,30 @@ public class UILogin : MonoBehaviour, IUILogin
         togglePasswordVisibility.image.color = color;
     }
 
-    public void LoginUser()
+    public override void LoginUser()
     {
         clearErrors();
         loginPresenter.Login(username.text, password.text);
         Debug.Log("Intentando loguear a " + username.text);
         resetAllInputs();
     }
-    public void showUser()
+    public override void showUser()
     {
         string usernameToshow = username.text;
         panelUserInfo.ShowUserInfo(usernameToshow);
     }
 
-    public void ShowAdmin()
+    public override void ShowAdmin()
     {
         panelAdmin.gameObject.SetActive(true);
         PanelUILogin.SetActive(false);
     }
 
-    public void showUserNotFound()
+    public override void showUserNotFound()
     {
         userError.gameObject.SetActive(true);
     }
-    public void showIncorrectPassword()
+    public override void showIncorrectPassword()
     {
         passwordError.gameObject.SetActive(true);
     }

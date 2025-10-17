@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIAdmin : MonoBehaviour, IUIAdmin
+public class UIAdmin : IUIAdmin
 {
     public Button AddNewAgentButton, ShowAllAgentsButton, LogoutButton;
     public GameObject PanelAdmin;
-    public UILogin PanelUILogin;
-    public UIListOfAllUsersInfo PanelListOfAllUsers;
+    public IUILogin PanelUILogin;
+    public IUIListOfAllUsersInfo PanelListOfAllUsers;
     private IPresenterAdmin PresenterAdmin;
 
     void Start()
@@ -15,18 +15,18 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
         PresenterAdmin = new PresenterAdmin();
     }
 
-    public void ShowAllAgents()
+    public override void ShowAllAgents()
     {
         PanelListOfAllUsers.ShowFirstUser();
         ChangeAdminPanelToAllUsersListPanel();
     }
 
-    public void GenerateNewAgents()
+    public override void GenerateNewAgents()
     {
         PresenterAdmin.GenerateNewAgents();
     }
     
-    public void Logout()
+    public override void Logout()
     {
         ChangeAdminPanelToLoginPanel();
     }
@@ -37,7 +37,7 @@ public class UIAdmin : MonoBehaviour, IUIAdmin
     }
     private void ChangeAdminPanelToAllUsersListPanel()
     {
-        PanelListOfAllUsers.gameObject.SetActive(true);
+        PanelListOfAllUsers.GetGameOBject().SetActive(true);
         PanelAdmin.SetActive(false);
     }
 

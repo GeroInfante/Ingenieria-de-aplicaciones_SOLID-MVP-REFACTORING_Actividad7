@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIListOfAllUsersInfo : UIShowUserInfoInPanel, IUIListOfAllUsersInfo
+public class UIListOfAllUsersInfo : IUIListOfAllUsersInfo
 {
     public Button next, previous;
     private IPresenterListOfAllUsers presenterListOfAllUsers;
@@ -15,37 +15,43 @@ public class UIListOfAllUsersInfo : UIShowUserInfoInPanel, IUIListOfAllUsersInfo
 
     }
     
-    public void ShowFirstUser()
+    public override void ShowFirstUser()
     {
         presenterListOfAllUsers.GetFirstAgent();
     }
 
-    public void GetNextUser()
+    public override void GetNextUser()
     {
         presenterListOfAllUsers.GetNextUser();
     }
 
-    public void GetPreviousUser()
+    public override void GetPreviousUser()
     {
         presenterListOfAllUsers.GetPreviousUser();
     }
 
-    public void DeactivateNextButton()
+    // Implemented to satisfy IUIListOfAllUsersInfo interface
+    public override GameObject GetGameOBject()
+    {
+        return this.gameObject;
+    }
+
+    public override void DeactivateNextButton()
     {
         next.gameObject.SetActive(false);
     }
 
-    public void ActivateNextButton()
+    public override void ActivateNextButton()
     {
         next.gameObject.SetActive(true);
     }
 
-    public void DeactivatePreviousButton()
+    public override void DeactivatePreviousButton()
     {
         previous.gameObject.SetActive(false);
     }
 
-    public void ActivatePreviousButton()
+    public override void ActivatePreviousButton()
     {
         previous.gameObject.SetActive(true);
     }
