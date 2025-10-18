@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public abstract class UIShowUserInfoInPanel : MonoBehaviour, IUIShowUserInfoInPanel
+public abstract class UIShowUserInfoInPanel : MonoBehaviour
 {
     public TextMeshProUGUI agentName, agentLastName, agentAge, agentPhone, agentAddress, agentEmail;
     public Button logout;

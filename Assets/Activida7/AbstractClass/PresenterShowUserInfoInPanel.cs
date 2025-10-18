@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class PresenterShowUserInfoInPanel 
 {
-    protected IUIShowUserInfoInPanel userShowInfoUI;
+    protected UIShowUserInfoInPanel userShowInfoUI;
     public void ShowAgentInuserInfoInterface(Persona agentToShow, Sprite image)
     {
         userShowInfoUI.showName(agentToShow.Nombre);
