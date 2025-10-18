@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Garance",
+        "last": "Bourgeois"
+      },
+      "location": {
+        "street": {
+          "number": 8689,
+          "name": "Rue Denfert-Rochereau"
+        },
+        "city": "Aubervilliers",
+        "state": "Var",
+        "country": "France",
+        "postcode": 54209,
+        "coordinates": {
+          "latitude": "-13.0615",
+          "longitude": "13.7264"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "garance.bourgeois@example.com",
+      "login": {
+        "uuid": "619bda1e-73a9-4577-a0ef-fa4c02353ade",
+        "username": "whitewolf712",
+        "password": "tasty",
+        "salt": "nPKwEDNc",
+        "md5": "c4f1e8c05474a09e75c164eb013c17fd",
+        "sha1": "a6274bd4c10d7d6a1cc9a27a2a3892e6f5a03d7b",
+        "sha256": "5bd4120d37d85c5a46c5c559a2168c6107a2789cba37e78e8600ebb1e63f65a0",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1960-07-07T20:48:46.509Z",
+        "age": 65
+      },
+      "registered": {
+        "date": "2018-08-07T12:29:07.082Z",
+        "age": 7
+      },
+      "phone": "01-23-16-89-77",
+      "cell": "06-96-81-99-39",
+      "id": {
+        "name": "INSEE",
+        "value": "2600639532149 70"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/4.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/4.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+      },
+      "nat": "FR"
+    }
+  ],
+  "info": {
+    "seed": "ce658e2aca76f5ae",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

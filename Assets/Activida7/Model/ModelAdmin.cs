@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class ModelAdmin : IModelAdmin
 {
-    private LocalFileMaker LocalFileMaker;
-    private LocalFilesService localFilesService;
+    private ILocalFileMaker LocalFileMaker;
+    private ILocalFileService localFilesService;
     private IApiManager ApiManager;
 
     public ModelAdmin()

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Ruby",
+        "last": "Pineda"
+      },
+      "location": {
+        "street": {
+          "number": 7600,
+          "name": "Andador Soria"
+        },
+        "city": "Santa Cruz Amilpas",
+        "state": "Durango",
+        "country": "Mexico",
+        "postcode": 93460,
+        "coordinates": {
+          "latitude": "27.6493",
+          "longitude": "111.6314"
+        },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "ruby.pineda@example.com",
+      "login": {
+        "uuid": "dbc3c1c4-e474-41d6-aaf6-b64bc439270a",
+        "username": "heavypanda439",
+        "password": "zeus",
+        "salt": "sEqg1yAM",
+        "md5": "ff3caf0a435a419bbabe96efbe099b1d",
+        "sha1": "527542a89cbf028a9c74b809a4406df63fbd2315",
+        "sha256": "9d705e8e3885b1533542417348898a446594e4eda0e330223a00f0954458dc03",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1959-09-17T07:28:39.53Z",
+        "age": 66
+      },
+      "registered": {
+        "date": "2017-03-11T03:59:30.017Z",
+        "age": 8
+      },
+      "phone": "(632) 514 0681",
+      "cell": "(604) 262 9587",
+      "id": {
+        "name": "NSS",
+        "value": "31 46 20 0523 7"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+      },
+      "nat": "MX"
+    }
+  ],
+  "info": {
+    "seed": "b8992e656ed3ef65",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -7,7 +7,7 @@ public class PresenterUserInfoLogged : PresenterShowUserInfoInPanel, IPresenterU
     public IUIUserInfoLogged userInfoUI;
     protected IModelUserInfo userInfoModel;
 
-    public PresenterUserInfoLogged(UIUserInfoLogged ui)
+    public PresenterUserInfoLogged(IUIUserInfoLogged ui)
     {
         userInfoUI = ui;
         userShowInfoUI = ui;

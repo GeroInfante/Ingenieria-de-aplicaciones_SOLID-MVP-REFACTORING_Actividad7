@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Ella",
+        "last": "Makinen"
+      },
+      "location": {
+        "street": {
+          "number": 1061,
+          "name": "Suvantokatu"
+        },
+        "city": "Lahti",
+        "state": "Kainuu",
+        "country": "Finland",
+        "postcode": 31414,
+        "coordinates": {
+          "latitude": "-21.7822",
+          "longitude": "19.4405"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "ella.makinen@example.com",
+      "login": {
+        "uuid": "289a1d62-339d-437a-83a5-74376e87bc3a",
+        "username": "goldenladybug336",
+        "password": "mustard",
+        "salt": "nKZoCOXn",
+        "md5": "6f435cc6a3d70e86b1db9382455ac3b3",
+        "sha1": "77f65ef09bed6f6945d28ff6d72b1857113ee05c",
+        "sha256": "c663f74a08601f0e15c87ff0328d8a0f5408963d4f5d9a550532a40f80f076ff",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1957-02-16T23:55:35.994Z",
+        "age": 68
+      },
+      "registered": {
+        "date": "2011-12-10T15:58:57.225Z",
+        "age": 13
+      },
+      "phone": "09-547-726",
+      "cell": "043-527-36-15",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA142undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/40.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/40.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/40.jpg"
+      },
+      "nat": "FI"
+    }
+  ],
+  "info": {
+    "seed": "a9ea29ee01f9db0a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

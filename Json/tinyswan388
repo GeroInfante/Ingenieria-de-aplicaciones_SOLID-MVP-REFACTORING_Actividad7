@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Madame",
+        "first": "Mila",
+        "last": "Picard"
+      },
+      "location": {
+        "street": {
+          "number": 5865,
+          "name": "Place du 8 Février 1962"
+        },
+        "city": "Plateau de Diesse",
+        "state": "Genève",
+        "country": "Switzerland",
+        "postcode": 2609,
+        "coordinates": {
+          "latitude": "-56.9321",
+          "longitude": "57.5784"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "mila.picard@example.com",
+      "login": {
+        "uuid": "bd4494a4-03f0-46e6-846e-d50a6e2e2ad0",
+        "username": "tinyswan388",
+        "password": "gators",
+        "salt": "o8cB4zst",
+        "md5": "d2d5d93f9737b5e9a7ce34b65c4370c3",
+        "sha1": "91d0bc8580d81310021e484fe7be4ae98a3f50d4",
+        "sha256": "662053356a3897c69bb040319d1eab7d342168258a0ec9ca3d4ed2ac1664058c",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1945-01-10T23:15:02.678Z",
+        "age": 80
+      },
+      "registered": {
+        "date": "2015-10-04T01:09:00.903Z",
+        "age": 10
+      },
+      "phone": "079 168 09 89",
+      "cell": "079 355 46 14",
+      "id": {
+        "name": "AVS",
+        "value": "756.3188.5078.72"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/40.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/40.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/40.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "502792d4f9f9c589",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

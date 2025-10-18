@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class PresenterShowUserInfoInPanel : IPresenterShowUserInfoInPanel
+public abstract class PresenterShowUserInfoInPanel 
 {
     protected IUIShowUserInfoInPanel userShowInfoUI;
     public void ShowAgentInuserInfoInterface(Persona agentToShow, Sprite image)

@@ -5,7 +5,7 @@ public class PresenterListUsersInfo : PresenterShowUserInfoInPanel, IPresenterLi
 {
 	IUIListOfAllUsersInfo listOfUserUI;
 	IModelListOfAllUsernamesInLocalFiles modelListAllUser;
-	public PresenterListUsersInfo(UIListOfAllUsersInfo uiListAllUsers)
+	public PresenterListUsersInfo(IUIListOfAllUsersInfo uiListAllUsers)
 	{
 		//Atributros de Clase abstracta
 		userShowInfoUI = uiListAllUsers;

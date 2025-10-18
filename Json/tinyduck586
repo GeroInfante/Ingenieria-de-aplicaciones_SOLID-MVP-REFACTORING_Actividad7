@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Dylan",
+        "last": "Chapman"
+      },
+      "location": {
+        "street": {
+          "number": 1790,
+          "name": "Ormond Quay"
+        },
+        "city": "Balbriggan",
+        "state": "Carlow",
+        "country": "Ireland",
+        "postcode": 39970,
+        "coordinates": {
+          "latitude": "0.5660",
+          "longitude": "-92.3420"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "dylan.chapman@example.com",
+      "login": {
+        "uuid": "42b29105-3b7c-4312-9ae3-8d82fae61fb9",
+        "username": "tinyduck586",
+        "password": "outoutout",
+        "salt": "lRDYmejY",
+        "md5": "2affdfa7e0c4e151b4efef6cffc6fa52",
+        "sha1": "6ac644a02eef43b54aab674487e9cd4d3bb34f4a",
+        "sha256": "526c96f438efe225a8d1fb4efccbc21633f244670025bd1699a0b6e758e63ebb",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1991-09-05T20:09:07.189Z",
+        "age": 34
+      },
+      "registered": {
+        "date": "2013-07-16T01:36:00.557Z",
+        "age": 12
+      },
+      "phone": "071-693-1975",
+      "cell": "081-393-0391",
+      "id": {
+        "name": "PPS",
+        "value": "6440502T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/15.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/15.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "04d251ced1fd020a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

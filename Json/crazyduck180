@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Onni",
+        "last": "Salo"
+      },
+      "location": {
+        "street": {
+          "number": 4736,
+          "name": "Mechelininkatu"
+        },
+        "city": "Karijoki",
+        "state": "Lapland",
+        "country": "Finland",
+        "postcode": 92301,
+        "coordinates": {
+          "latitude": "-23.6770",
+          "longitude": "-138.4784"
+        },
+        "timezone": {
+          "offset": "+4:00",
+          "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+        }
+      },
+      "email": "onni.salo@example.com",
+      "login": {
+        "uuid": "bda7635e-038c-4539-b143-197df1da9d83",
+        "username": "crazyduck180",
+        "password": "almond",
+        "salt": "bnFVtoJT",
+        "md5": "688f0fdcf37dc19a77b2c6c2acf1f361",
+        "sha1": "92717cefc41d8424d64855738e1b963b78a5ebf2",
+        "sha256": "b5e4b8e06f0ebe50bc04872e427801bef146f272b52dfcf82902c4928336774d",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1979-03-12T05:03:04.039Z",
+        "age": 46
+      },
+      "registered": {
+        "date": "2011-04-22T18:52:49.523Z",
+        "age": 14
+      },
+      "phone": "09-186-685",
+      "cell": "042-197-88-90",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA839undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/85.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/85.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+      },
+      "nat": "FI"
+    }
+  ],
+  "info": {
+    "seed": "bac89172b0ca8800",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

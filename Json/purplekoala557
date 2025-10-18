@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Vildan",
+        "last": "Pekkan"
+      },
+      "location": {
+        "street": {
+          "number": 3058,
+          "name": "Şehitler Cd"
+        },
+        "city": "Bursa",
+        "state": "İstanbul",
+        "country": "Turkey",
+        "postcode": 77207,
+        "coordinates": {
+          "latitude": "69.0064",
+          "longitude": "124.0889"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "vildan.pekkan@example.com",
+      "login": {
+        "uuid": "fa114536-b1ef-481e-9a4a-787dbc08b498",
+        "username": "purplekoala557",
+        "password": "dolores",
+        "salt": "g50Fg4fQ",
+        "md5": "21a613967177837a5ff45218836b3a4d",
+        "sha1": "9b35c9cd3c38dcb7a14798661ee4ec1a880877fc",
+        "sha256": "0d3c832f58ff41b9ae258d9db1312d97e724dbce109da462142680fb51c40f91",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1972-10-27T15:37:46.929Z",
+        "age": 52
+      },
+      "registered": {
+        "date": "2018-10-02T16:52:47.347Z",
+        "age": 7
+      },
+      "phone": "(705)-726-5178",
+      "cell": "(504)-429-4936",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/67.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/67.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/67.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "99e3f24682048938",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

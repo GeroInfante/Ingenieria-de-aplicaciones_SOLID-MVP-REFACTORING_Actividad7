@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Carmen",
+        "last": "Berland"
+      },
+      "location": {
+        "street": {
+          "number": 6749,
+          "name": "Sørlibakken"
+        },
+        "city": "Sætre",
+        "state": "Hordaland",
+        "country": "Norway",
+        "postcode": "9131",
+        "coordinates": {
+          "latitude": "41.1748",
+          "longitude": "1.5297"
+        },
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "carmen.berland@example.com",
+      "login": {
+        "uuid": "2022add5-fd5b-48d5-a90a-73e328cc9a64",
+        "username": "redkoala298",
+        "password": "1a2b3c4d",
+        "salt": "ZvQFZvNL",
+        "md5": "6c2b186243810d2c4a59fb1d3df0c373",
+        "sha1": "9b20947ac3cccc307e545cef4e4f963ebaaca0e1",
+        "sha256": "b010a80ad6cb8a434be140f22bc1234e4978fe9bbbc48cb9571f978bda1935c4",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1994-12-06T23:20:20.192Z",
+        "age": 30
+      },
+      "registered": {
+        "date": "2006-04-01T11:00:59.989Z",
+        "age": 19
+      },
+      "phone": "67856427",
+      "cell": "46196193",
+      "id": {
+        "name": "FN",
+        "value": "06129411412"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/13.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "cdc1f9ecd2409029",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

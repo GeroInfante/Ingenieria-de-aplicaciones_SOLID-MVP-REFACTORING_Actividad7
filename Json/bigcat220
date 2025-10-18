@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Chris",
+        "last": "Taylor"
+      },
+      "location": {
+        "street": {
+          "number": 6631,
+          "name": "E Pecan St"
+        },
+        "city": "Dubbo",
+        "state": "Tasmania",
+        "country": "Australia",
+        "postcode": 8585,
+        "coordinates": {
+          "latitude": "-87.1008",
+          "longitude": "-0.8100"
+        },
+        "timezone": {
+          "offset": "+9:30",
+          "description": "Adelaide, Darwin"
+        }
+      },
+      "email": "chris.taylor@example.com",
+      "login": {
+        "uuid": "2eea35bf-f5b6-4f4c-b712-28ab2271c422",
+        "username": "bigcat220",
+        "password": "hotshot",
+        "salt": "0vTA9rWp",
+        "md5": "45b27f05b34c36cfd2b1ac15b18e2067",
+        "sha1": "3dfcd6d52ffb8409233a2394bc6b9b78d8d87996",
+        "sha256": "3ade7e3da66af6a23029e97ce9266e02546ac846bcb7891058c70098c84edc54",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1974-08-16T09:08:10.07Z",
+        "age": 51
+      },
+      "registered": {
+        "date": "2015-11-20T22:30:57.278Z",
+        "age": 9
+      },
+      "phone": "01-1408-2118",
+      "cell": "0470-340-451",
+      "id": {
+        "name": "TFN",
+        "value": "278295013"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/72.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/72.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/72.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "5b323cf82dc1d2b5",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

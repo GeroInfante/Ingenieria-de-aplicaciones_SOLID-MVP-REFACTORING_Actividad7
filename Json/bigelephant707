@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Constance",
+        "last": "Morel"
+      },
+      "location": {
+        "street": {
+          "number": 6272,
+          "name": "Route de Genas"
+        },
+        "city": "Saint-Denis",
+        "state": "Gard",
+        "country": "France",
+        "postcode": 28587,
+        "coordinates": {
+          "latitude": "-21.2332",
+          "longitude": "17.0196"
+        },
+        "timezone": {
+          "offset": "+5:45",
+          "description": "Kathmandu"
+        }
+      },
+      "email": "constance.morel@example.com",
+      "login": {
+        "uuid": "3beba5d4-3217-4bb4-b181-4afe4f388047",
+        "username": "bigelephant707",
+        "password": "kieran",
+        "salt": "jfDQRrCg",
+        "md5": "12cb3fbc502da90bf6c778ff06f25b53",
+        "sha1": "070b3d6d95ddbfda6ac8d952ba19de28404d4d2c",
+        "sha256": "5f44697667145f047cdede692fc7984617889d6bc96c979f669ddb5865dc2f98",
+        "role": "agent"
+      },
+      "dob": {
+        "date": "1999-06-29T06:24:50.223Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2020-07-22T17:46:53.393Z",
+        "age": 5
+      },
+      "phone": "05-25-50-24-55",
+      "cell": "06-53-33-38-11",
+      "id": {
+        "name": "INSEE",
+        "value": "2990570532338 27"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/24.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/24.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/24.jpg"
+      },
+      "nat": "FR"
+    }
+  ],
+  "info": {
+    "seed": "e0254cc9108b5484",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 public class PresenterLogin : IPresenterLogin
 {
     public IModelLogin loginModel;
-    public UILogin loginUI;
+    public IUILogin loginUI;
 
-    public PresenterLogin(UILogin loginUI)
+    public PresenterLogin(IUILogin loginUI)
     {
         this.loginUI = loginUI;
         loginModel = new ModelLogin();
