@@ -1,10 +1,12 @@
 public class PresenterAdmin : IPresenterAdmin 
 {
     private IModelAdmin AdminModel;
+    private IUIAdmin UIAdmin;
 
-    public PresenterAdmin()
+    public PresenterAdmin(IUIAdmin uiAdmin)
     {
         AdminModel = new ModelAdmin();
+        UIAdmin = uiAdmin;
     }
     public void GenerateNewAgents()
     {
@@ -13,6 +15,6 @@ public class PresenterAdmin : IPresenterAdmin
 
 	public void showAllAgents()
 	{
-		
+		UIAdmin.TellToListTOShowFirstUser();
 	}
 }

@@ -12,14 +12,20 @@ public class UIAdmin : IUIAdmin
     void Start()
     {
         PanelAdmin.SetActive(false);
-        PresenterAdmin = new PresenterAdmin();
+        PresenterAdmin = new PresenterAdmin(this);
     }
 
     public override void ShowAllAgents()
     {
-        PanelListOfAllUsers.ShowFirstUser();
+        PresenterAdmin.showAllAgents();
         ChangeAdminPanelToAllUsersListPanel();
     }
+
+    public override void TellToListTOShowFirstUser()
+    {
+        PanelListOfAllUsers.ShowFirstUser();
+    }
+    
 
     public override void GenerateNewAgents()
     {
